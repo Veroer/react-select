@@ -1,0 +1,19 @@
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 365
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 379
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - priority
+# Label to use when marking an issue as stale
+staleLabel: stale
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+  It looks like there hasn't been any activity here within 12 months.
+  Sorry about that! We've flagged this issue as stale.
+  If you have any additional information please leave us a comment.
+  If there is no activity in the next 2 weeks, it will be closed automatically.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: >
+  It looks like there hasn't been any activity here in over 12 months.
+  We've now closing this issue to prioritise recent issues.
